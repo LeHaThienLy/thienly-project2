@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+#full-site{
+    height: auto;
+    width: auto;
+}
+#wrapper{
+    height: auto;
+    width: auto;
+}
+header{
+    width:100%;
+    height: 80px;
+    /*background-color: #2b669a;*/
+}
+
+
+#full-content{
+    width: 100%;
+    height: auto;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #761c19;
+}
+.section{
+    position: relative;
+    width:auto;
+    height:auto;
+    padding: 60px 0;
+}
+.display-inline{
+    display: inline-block;
+}
+
+.gioithieu{
+    font-size: 13px;
+}
+.title-intro h5{
+    color: rgb(88, 152, 159);
+    font-size: 16px;
+    font-family: Arial;
+
+}
+.title-intro > .border-icon > i{
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 0 20px 20px 0;
+
+}
+.cloud-icon > i{
+    color: rgb(240, 206, 105);
+}
+.hdd-icon{
+    color:rgb(162, 160, 231);
+}
+.server-icon{
+    color: rgb(57, 65, 217);
+}
+#bang-gia{
+    background-color: rgb(224, 224, 224);
+}
+.title-price{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    letter-spacing:-2px;
+    font-size: 40px;
+
+}
+.title-price > h2{
+    margin-bottom: 10px;
+}
+.price-table{
+    margin: 20px 0;
+}
+
+.header-price{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    background-color: rgb(67, 67, 67);
+    padding: 25px 0;
+    font-weight: bolder;
+}
+.header-price > h4{
+    font-weight: bold;
+    font-size: 16px;
+}
+.header-price >h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.content-price{
+    background-color: white;
+    padding: 20px 40px;
+}
+.content-price>ul{
+    margin-bottom: 20px;
+}
+.content-price >ul > li{
+    list-style: none;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 5px;
+}
+.datmua-btn{
+    background-color:rgb(94, 88, 94);
+}
+.datmua-btn:hover{
+    background-color: rgb(113, 105, 113) !important;
+}
+.datmua-text{
+    color: white;
+    font-weight: bold;
+}
+#vi-sao-chon{
+    text-align: center;
+    background-color:rgb(234, 234, 234) ;
+    padding:60px 0 60px 0;
+    color:#333333;
+}
+
+.title{
+    text-transform: uppercase;
+    color:#333333;
+    font-size: 300%;
+    line-height: 1.2px;
+    margin-bottom: 25px;
+    font-weight: 300;
+   text-align: center;
+}
+.title > h1{
+    font-size: 45px;
+    letter-spacing: -1px;
+}
+.title > h1:after{
+    content: '-';
+    position: relative;
+    left: 45%;
+    display: block;
+    height: 2px;
+    text-indent: -999em;
+    bottom: -10px;
+    width: 7%;
+    opacity: 0.5;
+    border-bottom: 2px solid;
+
+}
+.text > p{
+    color: rgb(169, 169, 169);
+    font-size: 16px;
+    display: block;
+    padding: 5px 0 20px 0;
+    letter-spacing: normal;
+    opacity: 0.60;
+}
+.header{
+    text-align: center;
+}
+.content-khac-biet{
+    text-align: center;
+    margin: 40px 0;
+}
+#dich-vu{
+    background-color: rgb(234, 234, 234);
+}
+.icon-service{
+    margin-bottom: 20px;
+}
+.icon-service > i{
+
+    border-radius: 50%;
+    padding: 20px 25px;
+    color: white;
+}
+.linux > i{
+    border: solid rgb(193, 68, 1);
+    background-color: rgb(193, 68, 1);
+}
+.win > i{
+    border: solid rgb(34, 117, 155);
+    background-color: rgb(34, 117, 155);
+}
+.logo >  img{
+    border: 2px solid rgb(169, 169, 169);
+   margin-bottom: 39px;
+    margin-top: 10px;
+}
+#thong-bao{
+    background-color: #16a085;
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+}
+.content-thongbao{
+    padding: 15px 0;
+}
+.text-thongbao{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.text-center > a{
+    text-decoration: none;
+}
+#footer{
+    background-image: url("img/computer-bg.jpg");
+    border-top: 8px solid rgb(204, 204, 204);
+}
+.title-footer{
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight:ligh;
+}
+.content-footer{
+    font-size: 13px;
+}
+.content-footer > ul >li{
+    list-style: none;
+    color: rgb(139, 139, 139);
+    padding: 4px 0;
+
+}
+.lienhe{
+    color: white;
+}
+.lienhe > ul >li{
+    list-style: none;
+
+}
+.lienhe >ul > li > i{
+    margin-right: 10px;
+}

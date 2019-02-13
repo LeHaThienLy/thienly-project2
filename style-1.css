@@ -1,0 +1,434 @@
+.clearfix{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    margin-bottom: 200px;
+    box-shadow: 10px 10px 5px black;
+}
+
+.header-area{
+	position: relative;
+	display: table;
+	width: 90%;
+	margin: 0 auto;
+	min-height: 70px;
+	max-width: 1080px;
+}
+
+.logo{
+	display: table-cell;
+	vertical-align: middle;
+	margin: auto;
+	min-height: 70px;
+	min-width: 70px;
+	padding: 0;
+	position: relative;
+}
+
+.mainmenu-nav{
+	display: table-cell;
+	margin: auto;
+	padding: 0;
+	vertical-align: middle;
+	position: relative;
+}
+
+.navbar-desire{
+	background-color: white;
+	border:none;
+}
+
+.ldesire-collapse > ul > li > a span{
+	font-size: 13px;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: 700;
+}
+
+.ldesire-collapse > ul > li > a > i{
+	margin-left: 5px;
+	color: orange;
+}
+
+.ldesire-collapse > ul > li > a > i.fa-home{
+	margin-right: 10px;
+	color: black;
+}
+
+.ldesire-collapse > ul > li{
+	height: 40px;
+	border-radius: 5px 5px 0 0;
+}
+
+.ldesire-collapse > ul > li.onlyl{
+	background-color: #dbdbdb;
+}
+
+.ldesire-collapse > ul li.mainmenucolor:hover{
+	background-color: #134a7796;
+	transition: 0.8s;
+}
+
+.ldesire-collapse > ul li.mainmenucolor:hover a.color-text span{
+	color: #000000c7;
+} 
+
+.lrow-desire{
+	z-index: 100;
+	display: none;
+	position: absolute;
+	width: 900px;
+	top: 42px;
+	list-style: none;
+	padding: 0;
+	border-right: 1px solid #e64d14;
+	border-left: 1px solid #e64d14;
+	background-color: white;
+}
+
+.direction{
+	font-family: arial;
+	font-size: 13px;
+	color: gray;
+	margin-top: -10px;
+	font-weight: 600;
+}
+
+.direction-text{
+	font-family: arial;
+	font-size: 13px;
+	color: gray;
+}
+
+.border-desire{
+	border: 1px solid lightgray;
+	width: 100%;
+}
+
+.lrow-desire-server{
+	left: -100px;
+}
+
+.lrow-desire-cloundservices{
+	left: -200px;
+}
+
+.lrow-desire-hosting{
+	left: -400px;
+}
+
+.lrow-desire-infomation{
+	left:-650px;
+}
+
+.lrow-desire > li a{
+	text-transform: uppercase;
+	color: #2e8b57;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.lrow-desire > li a:hover{
+	color: black;
+}
+
+.text > div > div{
+	text-transform: uppercase;
+	color: #da6a23;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 700;
+} 
+
+.text > div > div i{
+	font-size: 40px;
+	margin-right: 10px;
+}
+
+.text > div p{
+	color: rgb(157, 157, 157);
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.ldesire-collapse > ul li:hover .lrow-desire{
+	display: block;
+	box-shadow: 5px 5px black;
+	border-top: 1px solid lightgray;
+}
+
+.text{
+	padding: 15px;
+	margin-left: -15px;
+	cursor: pointer;
+}
+
+.text:hover{
+	background-color: #a9a9a987;
+}
+
+.text:hover div{
+	color: #1f4fb3;
+	transition: 0.9s;
+}
+
+/*--------------*/
+.nexttoboder{
+	background-image: url("./slider-bg.jpg");
+}
+
+.content{
+	padding: 15px;
+	width: 85%;
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.content h2, .content .price{
+	margin-bottom: 20px;
+	font-weight: 800;
+}
+
+.content h2{
+	font-size: 25px;
+}
+
+.content i{
+	font-size: 50px;
+	position: relative;
+}
+
+.size-text{
+	font-size: 20px;
+}
+
+.price{
+	font-size: 25px;
+}
+
+.content span{
+	text-transform: uppercase;
+	font-size: 13px;
+	display: block;
+}
+
+/*-------------*/
+.btn-detail{
+	width: 40%;
+	line-height: 50px;
+	background-color: #00000ce3;
+	color: white;
+	border: none;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.btn-detail:hover{
+	opacity: 0.8;
+	transition: 0.8s;
+}
+
+.col-md-8-text-desire{
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+	font-weight: 700;
+}
+
+.col-md-8-text-desire > span{
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+/*---------------*/
+.details-configuration{
+	position: absolute;
+	top: 0;
+	width: 77%;
+	overflow: hidden;
+	height: 0;
+	transition: .5s ease;
+	bottom: 100%;
+}
+
+.tags-respon{
+	margin-bottom: 20px;
+}
+.tags-respon:hover .details-configuration{
+	bottom: 0;
+	height: 100%;
+	background-color: white;
+}
+
+.gem-details-configuration{
+	text-align: center;
+}
+
+.gem-details-configuration h3{
+	font-size: 20px;
+	font-weight: 500;
+} 
+
+.gem-details-configuration p{
+	text-align: left;
+	margin-left: 30px;
+	border-bottom: 1px solid lightgray;
+	font-family: arial;
+	width: 80%;
+}
+
+.gem-details-configuration p i{
+	margin-right: 5px;
+}
+
+.gem-details-configuration p span{
+	font-weight: 800;
+}
+
+.btn-gem-details{
+	background-color: #14bd31;
+	font-family: arial;
+	border: none;
+	width: 30%;
+	color: white;
+	font-weight: 700;
+	line-height: 30px;
+	border-radius: 3px;
+}
+
+.btn-gem-details:hover{
+	opacity: 0.8;
+	transition: 0.8s;
+}
+/*--------------*/
+
+.collections-tag{
+	margin-left: 40px;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 1220px){
+	.lrow-desire-cloundservices, .lrow-desire{
+		width: 850px;
+	}
+
+	.text > div > div{
+		font-size: 15px;
+	} 
+
+	.text > div > div i{
+		font-size: 35px;
+		margin-right: 10px;
+	}
+
+	.text > div p{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 992px){
+	.content, .details-configuration{
+		margin-left: 10px;
+	}
+
+	.lrow-desire{
+		width: 800px;
+		left: -200px;
+	}
+
+
+}
+
+@media only screen and (max-width: 1110px){
+	.lrow-desire-cloundservices, .lrow-desire{
+		width: 850px;
+		left: -200px;
+	}
+
+	.lrow-desire-server{
+		left: -200px;
+		width: 800px;
+	}
+
+	.lrow-desire-cloundservices{
+		left: -300px;
+	}
+
+	.lrow-desire-hosting{
+		left: -500px;
+	}
+
+	.lrow-desire-infomation{
+		left:-150px;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	.lrow-desire-cloundservices{
+		left: -400px;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.lrow-desire{
+		left: -300px;
+	}
+
+	.lrow-desire-server{
+		left: -200px;
+		width: 600px;
+	}
+
+	.lrow-desire-cloundservices{
+		width: 600px;
+		left: -300px;
+	}
+
+	.lrow-desire-hosting{
+		width: 600px;
+		left: -500px;
+	}
+
+	.lrow-desire-infomation{
+		left:-150px;
+		width: 600px;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.lrow-desire-infomation{
+		left:-150px;
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 780px){
+	.lrow-desire-server{
+		left: -200px;
+		width: 600px;
+	}
+
+	.lrow-desire-cloundservices{
+		width: 600px;
+		left: -300px;
+	}
+
+	.lrow-desire-hosting{
+		width: 500px;
+		left: -100px;
+	}
+
+	.lrow-desire-infomation{
+		left:-250px;
+		width: 500px;
+	}
+}

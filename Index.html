@@ -1,0 +1,906 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style-1.css">
+</head>
+<body>
+<div id="full-site">
+    <div id="wrapper">
+        <header>
+            <div class="header clearfix">
+                <div class="header-area">
+                    <div class="logo">
+                        <a href="https://vietteldc.com">
+                            <img src="./imgs/logo_viettel-idc-e.png" alt="VIETTEL IDC">
+                        </a>
+                    </div>
+                    <div class="mainmenu-nav">
+                        <nav class="navbar navbar-inverse navbar-desire" style="margin: 0;">
+                            <div class="container-fluid" style="padding: 0;">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse ldesire-collapse" id="myNavbar" style="padding: 0;">
+                                    <ul class="nav navbar-nav" style="position: relative; margin-left: 20px;">
+                                        <li class="onlyl mainmenucolor"><a href="#" class="color-text"><i class="fa fa-home" aria-hidden="true"></i><span>trang chủ</span></a></li>
+                                        <li class="mainmenucolor"><a href="#" class="color-text"><span>máy chủ</span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <ul class="row lrow-desire lrow-desire-server">
+                                                <li class="col-md-4"><a href="">máy chủ riêng</a>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-stack-exchange" aria-hidden="true"></i>thuê máy chủ</div>
+                                                            <p>Cung cấp máy chủ mọi loại cấu hình cho tất cả nhu cầu</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-gift" aria-hidden="true"></i>thuê máy chủ giá rẻ</div>
+                                                            <p>Được cung cấp máy chủ chính hảng với chi phí rẻ nhất</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-4"><a href="">thuê chỗ đặt</a>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-building" aria-hidden="true"></i>thuê chỗ đặt máy chủ</div>
+                                                            <p>Cung cấp không gian cho chỗ đặt máy chủ, điện, điều hòa, băng thông, IP tĩnh, ...</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-bars" aria-hidden="true"></i>thuê rủ rack</div>
+                                                            <p>Cung cấp tủ Rack 42U đặt tại Datacenter tiêu chuẩn tier 3++</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-usd" aria-hidden="true"></i>máy đào bitcoin</div>
+                                                            <p>Cung cấp chỗ đặt trâu, máy đào Bitcoin(BTC) các máy L3, L3+, D3, ...</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-4"><a href="">thuê khu cage</a>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-calculator" aria-hidden="true"></i>thuê khu cage</div>
+                                                            <p>Phòng riêng được bảo vệ bằng khóa vân tay</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-briefcase" aria-hidden="true"></i>dr office</div>
+                                                            <p>Cung cấp sẵn văn phòng bao gồm các thiết bị làm việc khi xảy ra thảm họa</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mainmenucolor"><a href="#" class="color-text"><span>clound services</span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <ul class="row lrow-desire lrow-desire-cloundservices">
+                                                <li class="col-md-4"><a href="">lưu trữ dữ liệu</a>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-cloud-upload" aria-hidden="true"></i>storebox</div>
+                                                            <p>Dịch vụ đồng bộ và chia sẻ dữ liệu tốc độ cao, an toàn, mạnh mẽ</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-database" aria-hidden="true"></i>clound storage</div>
+                                                            <p>Dịch vụ lưu trữ dữ liệu an toàn trên Clound</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-floppy-o" aria-hidden="true"></i>clound backup</div>
+                                                            <p>Tự động lập lịch backup định kỳ, lưu trữ an toàn trên Clound</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-4"><a href="">clound server</a>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-cloud" aria-hidden="true"></i>clound server</div>
+                                                            <p>Máy chủ ảo chất lượng cao, băng thông 100Mbps, AntiDDOS</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-certificate" aria-hidden="true"></i> clound server SSD</div>
+                                                            <p>Máy chủ ảo cao cấp sử dụng ổ cứng SSD, AntiDDOS</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-usd" aria-hidden="true"></i>máy đào bitcoin</div>
+                                                            <p>Cung cấp chỗ đặt trâu, máy đào Bitcoin(BTC) các máy L3, L3+, D3, ...</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-4"><a href="">thuê khu cage</a>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-calculator" aria-hidden="true"></i>thuê khu cage</div>
+                                                            <p>Phòng riêng được bảo vệ bằng khóa vân tay</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-briefcase" aria-hidden="true"></i>dr office</div>
+                                                            <p>Cung cấp sẵn văn phòng bao gồm các thiết bị làm việc khi xảy ra thảm họa</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-gift" aria-hidden="true"></i>thuê máy chủ giá rẻ</div>
+                                                            <p>Được cung cấp máy chủ chính hảng với chi phí rẻ nhất</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mainmenucolor"><a href="#" class="color-text"><span>hosting</span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <ul class="row lrow-desire lrow-desire-hosting">
+                                                <li class="col-md-4"><a href="">web hosting</a>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-firefox" aria-hidden="true"></i>web hosting</div>
+                                                            <p class="direction-text">Hosting chất lượng cao giá rẻ</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-4"><a href="">email</a>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-envelope-o" aria-hidden="true"></i>email hosting</div>
+                                                            <p>Email theo tên miền riêng</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-server" aria-hidden="true"></i>email server</div>
+                                                            <p>Email được chạy trên máy chủ riêng với chất lượng tốt nhất</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-4"><a href="">tên miền</a>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-wikipedia-w" aria-hidden="true"></i>tên miền</div>
+                                                            <p>Thương hiệu trên Internet</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div><i class="fa fa-search" aria-hidden="true"></i>tra cứu tên miền</div>
+                                                            <p>Tìm kiếm tên miền đẹp nhất</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mainmenucolor"><a href="#" class="color-text"><span>đại lý</span></a></li>
+                                        <li class="mainmenucolor"><a href="#" class="color-text"><span>khuyến mãi</span></a></li>
+                                        <li class="mainmenucolor"><a href="#" class="color-text"><span>thông tin</span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                            <ul class="row lrow-desire lrow-desire-infomation">
+                                                <li class="col-md-4"><a href="">giới thiệu</a>
+                                                    <p class="direction">Tất cả thông tin về Viettel IDC</p>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div>giới thiệu</div>
+                                                            <p class="direction-text">Giới thiệu cơ sở hạ tầng IDC</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div>giới thiệu datacenter</div>
+                                                            <p class="direction-text">Giới thiệu Datacenter Viettel IDC</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div>liên hệ</div>
+                                                            <p class="direction-text">Liên hệ với Viettel IDC</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div>tuyển dụng</div>
+                                                            <p class="direction-text">Tìm hiếm nhân tài</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-4"><a href="">giải đáp</a>
+                                                    <p class="direction">Giải đáp thắc mắc dịch vụ</p>
+                                                    <hr>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div>dịch vụ email</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div>dịch vụ máy chủ ảo vps</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div>dịch vụ cho thuê chỗ đặt</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div>dịch vụ web hosting</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <div>
+                                                            <div>đăng ký tên miền</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-4"><a href="">blog IDC</a>
+                                                    <p class="direction">Cập nhật tin tức về Công nghê thông tin</p>
+                                                    <hr>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mainmenucolor"><a href="#"><img src="./imgs/vn.png" alt=""></a></li>
+                                        <li class="mainmenucolor"><a href="#"><img src="./imgs/america.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="">
+            <div class="nexttoboder">
+                <div class="container" style="padding-bottom: 70px;">
+                    <div class="collections-tag" style="margin-top: 150px;">
+                        <div class="tag-details row">
+                            <div class="col-md-4 tags-respon">
+                                <div class="content overplay">
+                                    <h2 class="size-text" style="text-transform: uppercase;">clound host 3</h2>
+                                    <div class="price">
+                                        80.000VND
+                                        <span>/tháng</span>
+                                    </div>
+                                    <hr>
+                                    <i class="fa fa-check-square-o iconsize" aria-hidden="true"></i>
+                                    <hr>
+                                    <span><mark style="background-color: #ffcc00">UNLIMITED BĂNG THÔNG</mark></span>
+                                    <p><small>HẠ TẦNG LÝ TƯỞNG</small></p>
+                                </div>
+
+                                <div class="details-configuration">
+                                    <div class="gem-details-configuration">
+                                        <h3>WEBHOST 3</h3>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Dung lượng:<span> 1200(MB)</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Lưu lượng:<span> Unlimited</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Số cơ sở dữ liệu:<span> 2</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Tên miền con:<span> Unlimited</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Cơ sở dữ liệu:<span> My SQL</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Số Email:<span> 3</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Addon domain:<span> 1</span></p>
+                                        <button type="button" class="btn-gem-details">CHI TIẾT</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 tags-respon">
+                                <div class="content">
+                                    <h2 class="size-text" style="text-transform: uppercase;">clound server</h2>
+                                    <div class="price">
+                                        70.000VND
+                                        <span>/tháng</span>
+                                    </div>
+                                    <hr>
+                                    <i class="fa fa-check-square-o iconsize" aria-hidden="true"></i>
+                                    <hr>
+                                    <span><mark style="background-color: red;">UNLIMITED BĂNG THÔNG</mark></span>
+                                    <p><small>HẠ TẦNG LÝ TƯỞNG</small></p>
+                                </div>
+
+                                <div class="details-configuration">
+                                    <div class="gem-details-configuration">
+                                        <h3>CLOUND SERVER 3</h3>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>CPU:<span> 3vCPU</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>HDD:<span> 60GB</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>RAM:<span> 2GB</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Data Transfer:<span> Unlimited</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Số địa chỉ IP:<span> 1</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Băng thông:<span> 100Mbps</span></p>
+                                        <button type="button" class="btn-gem-details" style="background-color: #6f268c;">CHI TIẾT</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 tags-respon">
+                                <div class="content">
+                                    <h2 class="size-text" style="text-transform: uppercase;">clound server</h2>
+                                    <div class="price">
+                                        70.000VND
+                                        <span>/tháng</span>
+                                    </div>
+                                    <hr>
+                                    <i class="fa fa-check-square-o iconsize" aria-hidden="true"></i>
+                                    <hr>
+                                    <span><mark style="background-color: #77e2f2;">UNLIMITED BĂNG THÔNG</mark></span>
+                                    <p><small><mark style="background-color: #77e2f2;">HẠ TẦNG LÝ TƯỞNG</mark></small></p>
+                                </div>
+
+                                <div class="details-configuration">
+                                    <div class="gem-details-configuration">
+                                        <h3>CLOUND SERVER 3</h3>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>CPU:<span> E5-2620</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>HDD:<span> 2 x 300GB SAS</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>RAM:<span> 8GB</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Data Transfer:<span> Unlimited</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Số địa chỉ IP:<span> 1</span></p>
+                                        <p><i class="fa fa-check" aria-hidden="true"></i>Băng thông:<span> 100Mbps</span></p>
+                                        <button type="button" class="btn-gem-details" style="background-color: #FFA100;">CHI TIẾT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="nextdouble" style="background-color: #40e0d0;">
+                <div class="row" style="margin: 0; padding: 10px;">
+                    <div class="col-md-8" style="margin-top: 25px;">
+                        <p class="col-md-8-text-desire" style="text-align: center;">Thuê dịch vụ IDC được nhận SIÊU KHUYẾN MÃI... <span class="textbr">Chương trình khuyến mãi lớn nhất tại VIETTLE IDC</span></p>
+                    </div>
+                    <div class="col-md-4" style="margin-top: 25px; text-align: center;">
+                        <button type="button" class="btn-detail">Chi tiết</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="full-content">
+            <div id="gioi-thieu" class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="title-intro">
+                                <div class="border-icon cloud-icon display-inline wow animated bounce"><i class="fa fa-cloud" aria-hidden="true"></i></div>
+                                <h5 class="display-inline wow animated fadeInUp" data-wow-offset ="10"><a href="https://vietteldc.com/thue-cho-dat-may-chu/">Thuê chỗ đặt máy chủ</a></h5>
+                            </div>
+                            <div class="gioithieu wow fadeInUp" data-wow-offset="10">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eius ex inventore libero quaerat voluptates. Eius facilis inventore magnam, odit perferendis quasi rem repellendus! Accusantium aut neque nobis numquam quae!
+                                </p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="title-intro">
+                                <div class="border-icon hdd-icon display-inline wow animated bounce"><i class="fa fa-hdd-o" aria-hidden="true"></i></div>
+                                <h5 class="display-inline animated fadeInUp"><a href="https://vietteldc.com/thue-cho-dat-may-chu/">Thuê máy chủ</a></h5>
+                            </div>
+                            <div class="gioithieu wow animated fadeInUp">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eius ex inventore libero quaerat voluptates. Eius facilis inventore magnam, odit perferendis quasi rem repellendus! Accusantium aut neque nobis numquam quae!
+                                </p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="title-intro">
+                                <div class="border-icon server-icon display-inline wow bounce"><i class="fa fa-server" aria-hidden="true"></i></div>
+                                <h5 class="display-inline wow fadeInUp"><a href="https://vietteldc.com/thue-cho-dat-may-chu/">Thuê máy chủ</a></h5>
+                            </div>
+                            <div class="gioithieu wow fadeInUp">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eius ex inventore libero quaerat voluptates. Eius facilis inventore magnam, odit perferendis quasi rem repellendus! Accusantium aut neque nobis numquam quae!
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="bang-gia" class="section ">
+                <div class="container">
+                    <div class="title-price">
+                        thuê chỗ đặt máy chủ tại:
+                        <div>
+                            <img src="img/logo_viettel-idc-e1445863100430.png" alt="logo">
+                        </div>
+
+                    </div>
+                    <div class="price-table wow bounceIn">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="colo">
+                                    <div class="header-price">
+                                        <h4 class="">colo 1</h4>
+                                        <h2 class="price">1.690.000</h2>
+
+                                    </div>
+                                    <div class="content-price">
+                                        <ul>
+                                            <li>Không gian: <b>1U</b></li>
+                                            <li>Công suất: <b> 300W</b></li>
+                                            <li>Lưu lượng: Unlimited</li>
+                                            <li>Số địa chỉ IP: <b>1</b></li>
+                                            <li>Băng thông: <b>100Mbps|10Mbps</b></li>
+                                        </ul>
+                                        <p class="text-center">
+                                            <a class="btn btn-block datmua-btn" style="background-color: rgb(235, 150, 59);" href="https://vietteldc.com/dang-ky-dich-vu-thue-cho-dat-thiet-bi/">
+                                                <span class="datmua-text">ĐẶT MUA</span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="colo2">
+                                    <div class="header-price">
+                                        <h4 class="">colo 2</h4>
+                                        <h2 class="price">2.100.000</h2>
+
+                                    </div>
+                                    <div class="content-price">
+                                        <ul>
+                                            <li>Không gian: <b>2U</b></li>
+                                            <li>Công suất: <b> 500W</b></li>
+                                            <li>Lưu lượng: Unlimited</li>
+                                            <li>Số địa chỉ IP: <b>1</b></li>
+                                            <li>Băng thông: <b>100Mbps|10Mbps</b></li>
+                                        </ul>
+                                        <p class="text-center">
+                                            <a class="btn btn-block datmua-btn"  href="https://vietteldc.com/dang-ky-dich-vu-thue-cho-dat-thiet-bi/">
+                                                <span class="datmua-text">ĐẶT MUA</span>
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="colo3">
+                                    <div class="header-price">
+                                        <h4 class="">colo 3</h4>
+                                        <h2 class="price-text">2.600.000</h2>
+
+                                    </div>
+                                    <div class="content-price">
+                                        <ul>
+                                            <li>Không gian: <b>1U</b></li>
+                                            <li>Công suất: <b> 500W</b></li>
+                                            <li>Lưu lượng: Unlimited</li>
+                                            <li>Số địa chỉ IP: <b>1</b></li>
+                                            <li>Băng thông: <b>100Mbps|10Mbps</b></li>
+                                        </ul>
+                                        <p class="text-center">
+                                            <a class="btn btn-block datmua-btn"  href="https://vietteldc.com/dang-ky-dich-vu-thue-cho-dat-thiet-bi/">
+                                                <span class="datmua-text">ĐẶT MUA</span>
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="colo4">
+                                    <div class="header-price">
+                                        <h4 class="">colo 4</h4>
+                                        <h2 class="price">3.100.000</h2>
+
+                                    </div>
+                                    <div class="content-price">
+                                        <ul>
+                                            <li>Không gian: <b>1U</b></li>
+                                            <li>Công suất: <b> 500W</b></li>
+                                            <li>Lưu lượng: Unlimited</li>
+                                            <li>Số địa chỉ IP: <b>1</b></li>
+                                            <li>Băng thông: <b>100Mbps|10Mbps</b></li>
+                                        </ul>
+                                        <p class="text-center">
+                                            <a class="btn btn-block datmua-btn"  href="https://vietteldc.com/dang-ky-dich-vu-thue-cho-dat-thiet-bi/">
+                                                <span class="datmua-text">ĐẶT MUA</span>
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="vi-sao-chon" class="section">
+                <div class="container">
+                    <div class="header wow  fadeInDown">
+                        <div class="title">
+                            <h1>vì sao nên chọn viettel idc</h1>
+                        </div>
+                        <div class="text">
+                            <p>Lựa chọn để thành công cùng nhà cung cấp dịch vụ IDC hàng đầu Việt Nam. Viettel IDC cam kết mang đến cho bạn hạ tầng lý tưởng, dịch vụ tận tâm</p>
+
+                        </div>
+
+                    </div>
+                    <div class="row wow  fadeInDown">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="img-bulding">
+                                <img src="img/building37.png" alt="building">
+                            </div>
+                            <div class="title-info">
+                                <h3>Trung tâm dữ liệu</h3>
+
+                            </div>
+                            <div class="">
+                                <p>5 trung tâm dữ liệu xây dựng theo tiêu chuẩn quốc tế Tier 3, với quy mô lớn và hiện đại nhất Việt Nam</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="img-bulding">
+                                <img src="img/8d3ec6aaab75ad8.png" alt="building">
+                            </div>
+                            <div class="title-info">
+                                <h3>An toàn thông tin</h3>
+
+                            </div>
+                            <div class="">
+                                <p>Đảm bảo sao lưu định kỳ 100% hệ thống, không có sự xâm nhập thành công nào vào hệ thống. Bảo mật mội thông tin</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="img-bulding">
+                                <img src="img/user.png" alt="building">
+                            </div>
+                            <div class="title-info">
+                                <h3>Hỗ trợ 24/7</h3>
+
+                            </div>
+                            <div class="">
+                                <p>Đọi ngũ IT chuyên môn cao, chăm sóc khách hàng 24/7 sẵn sàng cho mọi tình huống, giải quyết mọi vấn đề của bạn</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="img-bulding">
+                                <img src="img/chi-phi.png" alt="building">
+                            </div>
+                            <div class="title-info">
+                                <h3>Chi phí tối ưu</h3>
+
+                            </div>
+                            <div class="">
+                                <p>Hạ tầng lý tưởng, giải pháp công nghệ, cấu hình mạnh mẽ với giá cả rẻ nhất thị trường</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="khac-biet" class="section">
+                <div class="container">
+                    <div class="header wow animated fadeInDown">
+                        <div class="title">
+                            <h1>Khác biệt của Viettel IDC</h1>
+                        </div>
+                        <div class="text">
+                            <p>Bạn sẽ được cung cấp dịch vụ ANTI DDOS tốt nhất tại Viettel IDC. Dịch vụ cao cấp được cung cấp miễn phí duy nhất tại Việt Nam. Đây là điểm khác biệt mà các nhà cung cấp khác không có được.</p>
+
+                        </div>
+
+                    </div>
+                    <div class="content-khac-biet wow animated fadeInDown">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="title-content">
+                                    <div class="title-icon">
+                                        <i class="fa fa-4x fa-shield"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3>ANTI DDOS LAYER 4</h3>
+                                    Hệ thống Antiddos tự động lọc và dừng các lệnh TCP-SYN, TCP-ACK, TCP-PSH, TCP-URG và tấn công ICMP ở biên do đó các cuộc tấn không không bao giờ ảnh hưởng máy chủ của bạn.
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="title-content">
+                                    <div class="title-icon">
+                                        <i class="fa fa-4x fa-university"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3>ANTI DDOS LAYER 7</h3>
+                                    Tự động phát hiện những thay đổi đột ngột trong lưu lượng băng thông và ngăn chặn, bảo vệ máy chủ khỏi các cuộc tấn công DDoS lớp 7 (Layer 7), như POST floods, POST-botnet, JSBYPASS-botnet và các cuộc tấn công vào máy chủ DNS…                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="dich-vu" class="section">
+                <div class="container">
+                    <div class="header wow animated fadeInDown">
+                        <div class="title">
+                            <h1>dịch vụ tối trên hạ tầng tốt</h1>
+                        </div>
+                        <div class="text">
+                            <p>Sử dụng và chi trả theo nhu cầu sử dụng. Khả năng nâng cấp/hạ cấp linh hoạt giúp hạn chế lãng phí tài nguyên</p>
+
+                        </div>
+                    </div>
+                    <div class="content-service">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-xs-12 wow animated fadeInLeft">
+                                <div class="row">
+                                    <div class="col-md-10" style="text-align: right">
+                                        <h4>Quản trị linh hoạt</h4>
+                                        <div>Quản trị dễ dàng bằng công cụ chuyên dụng. Chủ động nâng cấp phần cứng cũng như phần mềm phù hợp</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <i class="fa  fa-lg  fa fa-users fa-4x"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-10" style="text-align: right">
+                                        <h4>Quản trị linh hoạt</h4>
+                                        <div>Quản trị dễ dàng bằng công cụ chuyên dụng. Chủ động nâng cấp phần cứng cũng như phần mềm phù hợp</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <i class="fa  fa-lg  fa-connectdevelop fa-3x"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-10" style="text-align: right">
+                                        <h4>Quản trị linh hoạt</h4>
+                                        <div>Quản trị dễ dàng bằng công cụ chuyên dụng. Chủ động nâng cấp phần cứng cũng như phần mềm phù hợp</div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <i class="fa  fa-lg  fa-building fa-4x"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 wow animated fadeIn">
+                                <div class="text-center">
+                                    <div class="icon-service linux">
+                                        <i class="fa fa-linux fa-5x"></i>
+                                    </div>
+                                    <div class="icon-service win">
+                                        <i class="fa fa-windows fa-5x"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 wow animated fadeInRight">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <i class="fa  fa-lg  fa-shield fa-3x"></i>
+                                    </div>
+                                    <div class="col-md-10" style="text-align: left">
+                                        <h4>Quản trị linh hoạt</h4>
+                                        <div>Quản trị dễ dàng bằng công cụ chuyên dụng. Chủ động nâng cấp phần cứng cũng như phần mềm phù hợp</div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <i class="fa  fa-lg  fa-shopping-cart fa-3x"></i>
+                                    </div>
+                                    <div class="col-md-10" style="text-align: left">
+                                        <h4>Quản trị linh hoạt</h4>
+                                        <div>Quản trị dễ dàng bằng công cụ chuyên dụng. Chủ động nâng cấp phần cứng cũng như phần mềm phù hợp</div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <i class="fa  fa-lg  fa-support fa-3x"></i>
+                                    </div>
+                                    <div class="col-md-10" style="text-align: left">
+                                        <h4>Quản trị linh hoạt</h4>
+                                        <div>Quản trị dễ dàng bằng công cụ chuyên dụng. Chủ động nâng cấp phần cứng cũng như phần mềm phù hợp</div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="khach-hang" class="section">
+                <div class="container wow animated fadeInDown">
+                    <div class="customer-head">
+                        <div class="title">
+                            <h1>khách hàng tiêu biểu viettel IDC</h1>
+                        </div>
+                        <div class="text text-center">
+                            <p>Hơn cả một nhà cung cấp, Viettel IDC là bạn, là người đồng hành uy tín của mọi doanh nghiệp</p>
+                        </div>
+                    </div>
+                    <div class="img-content">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/Agarena.jpg"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/Asiasoft-logo.png"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/c5-hover.jpg"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/Hoa-phat-logo.png"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/MB.jpg"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/misa.png"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/thegioididong.png"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/Van-phong-chinh-phu-logo.png"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/vietnamnet.png"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/Vinamilk-logo.png"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/VTC-logo.png"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-3 logo"><img src="img/VTV-logo.png"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="thong-bao" class="wow animated flash">
+                <div class=" content-thongbao">
+                    <div class="text-center">
+                        <a href="https://vietteldc.com/khuyen-mai-tat-ca-cac-dich-vu-cloud-tai-viettel-idc/">
+                            <span class="text-thongbao"> giảm giá đến 25% tất cả các dịch vụ cloud tại viettel idc</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="container">
+                <div class="row section">
+                    <div class="col-md-5 col-sm-5 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="title-footer">
+                                    Công ty Viettel - IDC
+                                </div>
+                                <div class="lienhe">
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            - 131 Trần Huy Liệu, P8, Q.Phs Nhuận, Tp.HCM
+                                            <br>
+                                            - 01 Nguyễn Huy Tưởng, Q.Thanh Xuân, Hà Nội
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                            <b>18008088 EXT 423</b>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            - 131 Trần Huy Liệu, P8, Q.Phs Nhuận, Tp.HCM
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            - 131 Trần Huy Liệu, P8, Q.Phs Nhuận, Tp.HCM
+                                            <br>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="title-footer">
+                                    hosting
+                                </div>
+                                <div class="content-footer">
+                                    <ul>
+                                        <li>Thuê VPS giá rẻ</li>
+                                        <li>VPS Chất Lượng Cao</li>
+                                        <li>Thuê Server Riêng</li>
+                                        <li>Thuê Cloud Server SSD</li>
+                                        <li>Thuê chỗ đặt Server</li>
+                                        <li>Hội nghị truyền hình</li>
+                                        <li>Thuê chỗ đặt Server</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-7 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="title-footer">
+                                    Dịch vụ
+                                </div>
+                                <div class="content-footer">
+                                    <ul>
+                                        <li>Thuê VPS giá rẻ</li>
+                                        <li>VPS Chất Lượng Cao</li>
+                                        <li>Thuê Server Riêng</li>
+                                        <li>Thuê Cloud Server SSD</li>
+                                        <li>Thuê chỗ đặt Server</li>
+                                        <li>Hội nghị truyền hình</li>
+                                        <li>Thuê chỗ đặt Server</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="title-footer">
+                                    Thông tin
+                                </div>
+                                <div class="content-footer">
+                                    <ul>
+                                        <li>Quy định đổi trả- hoàn tiền</li>
+                                        <li>Chính sách bảo mật thông tin</li>
+                                        <li>Dịch vụ sao lưu dữ liệu</li>
+                                        <li>Tài liệu dịch vụ</li>
+                                        <li>Dịch vụ lưu trữ trực tuyến</li>
+                                        <li>Dịch vụ Cloud Backup</li>
+                                        <li>Việc làm tiếng Trung</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="title-footer">
+                                    thuê máy chủ
+                                </div>
+                                <div class="content-footer">
+                                    <ul>
+                                        <li>Thuê máy chủ HP</li>
+                                        <li>Thuê máy chủ IBM</li>
+                                        <li>Thuê máy chủ Supermicro</li>
+                                        <li>Thuê máy chủ tặng điện thoại</li>
+                                        <li>Lưu trữ trực tuyến</li>
+                                        <li>Colocation server in Vietnam</li>
+                                        <li>Thuê Email Server</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div></div>
+
+        </footer>
+    </div>
+</div>
+<script src="Js.js" ></script>
+<script src="bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js" ></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" ></script>
+<script>
+    new WOW(
+        {
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true
+        }
+    ).init();
+</script>
+</body>
+</html>
